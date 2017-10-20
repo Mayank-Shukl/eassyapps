@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="time_array">
+        <item>Today</item>
+        <item>24 Hour</item>
+        <item>7 days</item>
+        <item>30 days</item>
+    </string-array>
+
+    <string-array name="social">
+        <item>com.facebook.katana</item>
+        <item>com.facebook.lite</item>
+        <item>com.instagram.android</item>
+        <item>com.snapchat.android</item>
+        <item>com.reddit.frontpage</item>
+        <item>com.twitter.android</item>
+        <item>com.quora.android</item>
+        <item>com.google.android.apps.plus</item>
+        <item>com.meetup</item>
+        <item>com.pinterest</item>
+    </string-array>
+
+    <string-array name="talk_chat">
+        <item>com.whatsapp</item>
+        <item>com.viber.voip</item>
+        <item>com.tencent.mm</item>
+        <item>com.kakao.talk</item>
+        <item>jp.naver.line.android</item>
+        <item>com.facebook.mlite</item>
+        <item>com.facebook.orca</item>
+        <item>com.bsb.hike</item>
+        <item>com.wZapChatMessenger5</item>
+        <item>com.imo.android.imoim</item>
+        <item>com.skype.m2</item>
+        <item>com.yahoo.mobile.client.android.im</item>
+        <item>com.glidetalk.glideapp</item>
+        <item>com.truecaller</item>
+        <item>com.google.android.apps.tachyon</item>
+        <item>com.juphoon.justalk</item>
+    </string-array>
+
+
+    <string-array name="dating">
+        <item>com.futurebits.instamessage.free</item>
+        <item>com.badoo.mobile</item>
+        <item>com.tinder</item>
+        <item>com.ftw_and_co.happn</item>
+        <item>com.okcupid.okcupid</item>
+        <item>com.bang.bangwithfriends</item>
+        <item>com.amoren.online</item>
+        <item>hps.dating.hookuper</item>
+        <item>mingle.android.mingle2</item>
+        <item>com.datelove.online.International</item>
+    </string-array>
+
+    <string-array name="shoping">
+        <item>com.flipkart.android</item>
+        <item>com.snapdeal.main</item>
+        <item>com.myntra.android</item>
+        <item>com.india.onlineshoppingapp</item>
+        <item>com.ebay.mobile</item>
+        <item>com.MySmartPrice.MySmartPrice</item>
+        <item>in.amazon.mShop.android.shopping</item>
+        <item>com.jabong.android</item>
+        <item>net.one97.paytm</item>
+        <item>com.paytmmall</item>
+        <item>com.phonepe.app</item>
+    </string-array>
+
+    <string-array name="video_stream">
+        <item>com.google.android.youtube</item>
+        <item>in.startv.hotstar</item>
+        <item>com.netflix.mediaclient</item>
+        <item>com.netflix.ninja</item>
+        <item>com.amazon.avod.thirdpartyclient</item>
+    </string-array>
+
+
+</resources>

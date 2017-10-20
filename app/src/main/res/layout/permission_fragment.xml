@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/basic_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/allow_cont"
+        android:background="@color/colorbg">
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/center"
+            />
+
+        <TextView
+            android:id="@+id/permission_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/center"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:lineSpacingExtra="3dp"
+            android:padding="10dp"
+            android:text="@string/permission_text"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_above="@id/permission_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher_round" />
+
+        <TextView
+            android:id="@+id/how"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/permission_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:text="@string/hint"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/explanation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorbg"
+        android:layout_above="@+id/allow_cont"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/how_permission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:drawablePadding="8dp"
+            android:drawableStart="@android:drawable/ic_dialog_info"
+            android:gravity="start"
+            android:lineSpacingExtra="10dp"
+            android:padding="25dp"
+            android:text="@string/how_to_permit"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/example"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/how_permission"
+            android:layout_alignParentTop="true"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            android:src="@drawable/example"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/allow_cont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorbg"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/allow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:elevation="5dp"
+            android:gravity="start"
+            android:padding="15dp"
+            android:text="@string/allow"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

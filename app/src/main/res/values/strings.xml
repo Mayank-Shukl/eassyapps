@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Use Wisely</string>
+    <string name="title_usage">Usage</string>
+    <string name="title_dashboard">Classification</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="APP_TITLE">appTitle</string>
+    <string name="APP_TIME">appTime</string>
+    <string name="DETAIL_HEADER"><![CDATA[Limit <b>%1$s</b> Daily Usage]]></string>
+    <string name="DETAIL_HEADER_EDIT"><![CDATA[<b>%1$s</b> Daily Usage Limit]]></string>
+    <string name="UPDATE">Update</string>
+    <string name="RESET">Reset</string>
+    <string name="CANCEL">Cancel</string>
+    <string name="CONFIRM">Confirm</string>
+    <string name="title_activity_interrupt_dialog">InterruptDialogActivity</string>
+    <string name="interrupt_text"><![CDATA[You have crossed daily usage limit set for <b>%1$s</b>. We Advise you to have control over excessive use.]]></string>
+    <string name="time_selected"><![CDATA[<b>%1$s</b> hr <b>%2$s</b> min]]></string>
+    <string name="time_selected_min"><![CDATA[<b>%1$s </b> min]]></string>
+
+    <string name="total_phone_active">Total Phone Usage Today</string>
+    <string name="total_phone_locked">Phone unlock count today</string>
+    <string name="app_classification">App Usage Classification</string>
+
+    <string name="publisher_id">ca-app-pub-5912217456810893~8667092932</string>
+    <!-- AdMob ad unit IDs -->
+    <string name="banner">ca-app-pub-5912217456810893/9816523076</string>
+    <string name="native_banner">ca-app-pub-5912217456810893/9305628437</string>
+    <string name="banner_bottom">ca-app-pub-5912217456810893/6649166198</string>
+    <string name="full_page">ca-app-pub-5912217456810893/5704584331</string>
+
+    <string name="permission_text"> For this app to work efficiently and effectively, You need to switch on the Usage Stats Permission for Use Wisely.
+    </string>
+    <string name="how_to_permit">Click on the Track Usage below \n Search for Use Wisely in  list of apps,
+        Click on it \n Switch on button  for Use Wisely.</string>
+
+    <string name="allow">Track Usage</string>
+
+    <string name="why_permission"> why permission ?</string>
+    <string name="why_permission_reason">This permission allows this app to access your app Usage  history. we keeps your data safely in
+    your phone. And it does not allow any one else to see your data.</string>
+
+    <string name="hint">How to do it ?</string>
+
+</resources>
+
